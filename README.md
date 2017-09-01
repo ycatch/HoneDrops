@@ -33,17 +33,23 @@ Please see index.php.
 
 ## Credits
 
-- Singularity CMS
- - Copyright (c) 2012-2015 Christopher J. Su  
- - https://github.com/csu/singularity-cms
+### Singularity CMS
 
-- marked.js
- - Copyright (c) 2011-2014, Christopher Jeffrey. (MIT License)
- - https://github.com/chjj/marked/
+- Copyright (c) 2012-2015 Christopher J. Su  
+- https://github.com/csu/singularity-cms
 
-- github-markdown.css
- - Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
- - https://github.com/sindresorhus/github-markdown-css
+### marked.js
+
+- Copyright (c) 2011-2014, Christopher Jeffrey. (MIT License)
+- https://github.com/chjj/marked/
+
+
+### github-markdown.css
+
+- Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+- https://github.com/sindresorhus/github-markdown-css
+
+### and more...
 
 - jquery
 - Bootstrap

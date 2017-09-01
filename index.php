@@ -2,12 +2,7 @@
 define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
 define('CONTENT_DIR', ROOT_DIR .'content/'); // change this to change which folder you want your content to be stored in
 
-// Change this to your strapdown.js location before using! Edit the theme tag below to use different Bootswatch themes.
-// It is recommended that you serve strapdown.js locally, rather than from strapdownjs' website:
-// $strapdown_location = "/strapdown.js";
 $default_title = 'HoneDrops';
-// $strapdown_location = "js/strapdown.js";
-//$bootswatch_theme = "superhero"; // choose any bootstrap theme included in strapdown.js!
 $file_format = ".md"; // change this to choose a file type, be sure to include the period
 
 // Get request url and script url
@@ -17,6 +12,9 @@ $script_url  = (isset($_SERVER['PHP_SELF'])) ? $_SERVER['PHP_SELF'] : '';
 
 // Get our url path and trim the / of the left and the right
 if($request_url != $script_url) $url = trim(preg_replace('/'. str_replace('/', '\/', str_replace('index.php', '', $script_url)) .'/', '', $request_url, 1), '/');
+// Get js and css path
+$js_url = str_replace('index.php', 'js/', $script_url);
+$css_url = str_replace('index.php', 'css/', $script_url);
 
 // Get the file path
 if($url) $file = strtolower(CONTENT_DIR . $url);
@@ -39,7 +37,7 @@ else $content = file_get_contents(CONTENT_DIR .'404' . $file_format);
 <!-- css -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap-responsive.css">
-<link rel="stylesheet" href="github-markdown.css">
+<link rel="stylesheet" href= "<?php echo $css_url."github-markdown.css"; ?>">
 <style>
 	.markdown-body {
 		box-sizing: border-box;
@@ -55,18 +53,22 @@ else $content = file_get_contents(CONTENT_DIR .'404' . $file_format);
 		}
 	}
 </style>
-<!-- Javascript -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script type="text/javascript" src="js/marked.min.js"></script>
 </head>
 <body>
     <div class="container">
     <div class="row">
+    <div class="col-12 col-sm-6 col-lg-8">
         <div id="md_out" class="markdown-body"></div>
         <div id="md_src"><?php echo $content; ?></div>
     </div>
+    </div>
 </div>
+
+<!-- Javascript -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="<?php echo $js_url."marked.min.js"; ?>"></script>
 <script type="text/javascript">
+$(function() {
     var mdsrc = $('#md_src');
     var mdtxt = mdsrc.text();
     mdsrc.hide();
@@ -76,6 +78,7 @@ else $content = file_get_contents(CONTENT_DIR .'404' . $file_format);
     var title_txt = $("title").text();
     var h1_txt = $("h1").text();
     $("title").text(h1_txt + " / " + title_txt);
+});
 </script>
 </body>
 </html>

@@ -44,6 +44,3 @@ Please see index.php.
 - github-markdown.css
  - Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
  - https://github.com/sindresorhus/github-markdown-css
-
-- jquery
-- Bootstrap

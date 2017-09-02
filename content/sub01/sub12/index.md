@@ -1,4 +1,4 @@
-# Sub / HoneDrops
+# sub01 / sub12 / index
 
 Simple, flat-file CMS skelton which marks up HTML using Markdown.
 

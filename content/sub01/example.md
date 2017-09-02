@@ -1,6 +1,14 @@
-# Sub / Example
+# Sub01 / Example
 
 This is an example markdown file for testing.
+
+example
+
+- [example](../example)
+- [sub01/index](./index)
+- [sub01/sub11/index](./sub11/index)
+- [sub01/sub12/index](./sub12/index)
+- [sub02/index](../sub02/index)
 
 ## A header
 ### Another header

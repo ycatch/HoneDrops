@@ -24,9 +24,10 @@
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="<?php echo $root_url; ?>">Home</a></li>
-					<li><a href="#">Menu 1</a></li>
-					<li><a href="#">Menu 2</a></li>
-					<li><a href="#">Menu 3</a></li>
+					<li><a href="<?php echo $root_url; ?>sub01/index">Sub 01</a></li>
+					<li><a href="<?php echo $root_url; ?>sub01/sub11/index">Sub 01/Sub 11</a></li>
+					<li><a href="<?php echo $root_url; ?>sub01/sub12/index">Sub 01/Sub 11</a></li>
+                    <li><a href="<?php echo $root_url; ?>sub02/index">Sub 02</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->

@@ -2,7 +2,7 @@
 define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
 define('CONTENT_DIR', ROOT_DIR .'content/'); // change this to change which folder you want your content to be stored in
 
-$default_title = 'HoneDrops';
+$default_title = 'Demo - HoneDrops';
 $file_format = ".md"; // change this to choose a file type, be sure to include the period
 $markdown_js = 'js/marked.min.js';
 $markdown_css = 'css/github-markdown.css';

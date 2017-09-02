@@ -1,19 +1,9 @@
-# Example
+# Sub02 / Example
 
 This is an example markdown file for testing.
 
-## Demo - links
-
-- [Home](index)
-- [sub01/index](sub01/index)
-- [sub01/sub11/index](sub01/sub11/index)
-- [sub01/sub12/index](sub01/sub12/index)
-- [sub02/index](sub02/index)
-
 ## A header
-
 ### Another header
-
 #### More headers!
 
 > "Look! A wild quote appeared!"

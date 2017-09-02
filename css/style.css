@@ -17,3 +17,11 @@ body {
         padding: 15px;
     }
 }
+
+a[href^="http://"]:after,
+a[href^="https://"]:after
+{
+	content: '^';
+	vertical-align: middle;
+	margin: 0 4px;
+}

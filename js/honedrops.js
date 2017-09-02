@@ -11,4 +11,8 @@ $(function() {
     var title_txt = $("title").text();
     var h1_txt = $("h1").text();
     $("title").text(h1_txt + " / " + title_txt);
+
+    // Add external link on a-tag
+    // var domain = "www.example.jp/wiki/";
+    // $('a[href^=http]').not('[href*="'+domain+'"]').attr('target','_blank');
 });

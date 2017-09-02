@@ -1,7 +1,11 @@
 /* HoneDrops CSS*/
+body {
+    padding-top: 50px;
+}
 
 .markdown-body {
     box-sizing: border-box;
+    background-color: white;
     min-width: 200px;
     max-width: 980px;
     margin: 0 auto;

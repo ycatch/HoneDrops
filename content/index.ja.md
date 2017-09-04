@@ -26,10 +26,14 @@ HoneDropsは、Markdownで記述できるシンプルなFlat-File CMSのスケ�
 - [Github](https://github.com/ycatch/HoneDrops)
 
 
+## 設置環境
+
+WebサーバーとPHPの実行環境が必要です。
+
 ## インストール
 
 1. [Github](https://github.com/ycatch/HoneDrops)からファイルをダウンロードする
-2. サーバーに、解凍したファイルを放り込む
+2. Webサーバーに、解凍したファイルを放り込む
 3. index.phpに、ブラウザでアクセスする
 
 

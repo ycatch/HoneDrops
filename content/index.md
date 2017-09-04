@@ -4,7 +4,7 @@ Simple, flat-file CMS skelton which marks up HTML using Markdown.
 
 It has small PHP file, .htaccess and Javascript markdown parser.
 
-HoneDrops inspired by Singularity CMS](https://christopher.su/singularity-cms/) and [MDwiki](http://dynalon.github.io/mdwiki/#!index.md).
+HoneDrops is inspired by [Singularity CMS](https://christopher.su/singularity-cms/) and [MDwiki](http://dynalon.github.io/mdwiki/#!index.md).
 
 ## feature
 
@@ -25,10 +25,16 @@ HoneDrops inspired by Singularity CMS](https://christopher.su/singularity-cms/) 
 
 - [Github](https://github.com/ycatch/HoneDrops)
 
+
+## Required
+
+- Web server and PHP.
+
+
 ## Install
 
 1. [Download](https://github.com/ycatch/HoneDrops) and extract files.
-2. Upload files.
+2. Upload files to Web server.
 3. Access to index.php.
 
 

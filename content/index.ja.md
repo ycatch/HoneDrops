@@ -9,12 +9,12 @@ HoneDropsは、Markdownで記述できるシンプルなFlat-File CMSのスケ�
 
 ## 特徴
 
-1. データベース不要
-3. サーバー負荷が軽い > Markdownのレンダリングはクライアントで実行
-2. インストールが簡単 > ファイルを放り込むだけ
+1. データベース不要 > 管理やバックアップが楽
+2. サーバー負荷が軽い > Markdownのレンダリングはクライアントで実行
+3. インストールが簡単 > ファイルを放り込むだけ
 4. Google検索に対応
-6. 特定のテンプレートエンジンに依存しない
-5. カスタマイズが柔軟（Bootstrapとmarked.jsを利用）
+5. 特定のテンプレートエンジンに依存しない
+6. 柔軟なカスタマイズ（Bootstrapとmarked.jsを利用）
 
 ### デモ
 
@@ -78,6 +78,10 @@ template.phpで、Webページのレイアウトを設定できます。
 
 また、css/style.cssでも、細かな設定が可能です。
 
+
+### Markdown
+
+js/bonedrops.jsで、[marked.js](https://github.com/chjj/marked)のオプションを設定できます。
 
 ### 属性の追加
 

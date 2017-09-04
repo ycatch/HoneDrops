@@ -1,4 +1,16 @@
 $(function() {
+    // Set Marked.js options.
+    // Please see https://github.com/chjj/marked
+    marked.setOptions({
+        gfm: true,
+        tables: true,
+        breaks: false,
+        pedantic: false,
+        sanitize: false,
+        smartLists: true,
+        smartypants: false
+    });
+
     // Get markdown text
     var mdsrc = $('#md_src');
     var mdtxt = mdsrc.text();

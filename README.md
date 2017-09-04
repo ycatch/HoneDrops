@@ -74,6 +74,11 @@ please see index.php.
 You will change page layout by template.php used Bootstrap and css/style.css.
 
 
+### Markdown
+
+You will sett [marked.js](https://github.com/chjj/marked) options on js/bonedrops.js.
+
+
 ### Attrbution
 
 please see js/bonedrops.js.

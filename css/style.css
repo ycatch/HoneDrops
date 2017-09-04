@@ -21,7 +21,9 @@ body {
 a[href^="http://"]:after,
 a[href^="https://"]:after
 {
-	content: '^';
-	vertical-align: middle;
-	margin: 0 2px;
+    content: "\f08e";
+    font-family: FontAwesome;
+    font-size: 60%;
+	vertical-align: top;
+	margin: 0 3px;
 }

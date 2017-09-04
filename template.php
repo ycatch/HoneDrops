@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo $default_title; ?></title>
 <!-- css -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 <link rel="stylesheet" href= "<?php echo $root_url.$markdown_css; ?>">
 <link rel="stylesheet" href= "<?php echo $root_url."css/style.css"; ?>">
 </head>
@@ -25,7 +27,7 @@
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="<?php echo $root_url; ?>"><?php echo $default_title; ?></a></li>
+					<li class="active"><a href="<?php echo $root_url; ?>">Home</a></li>
 					<li><a href="<?php echo $root_url; ?>sub01/index">Sub 01</a></li>
 					<li><a href="<?php echo $root_url; ?>sub01/sub11/index">Sub 01/Sub 11</a></li>
 					<li><a href="<?php echo $root_url; ?>sub01/sub12/index">Sub 01/Sub 11</a></li>

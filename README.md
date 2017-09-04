@@ -19,7 +19,7 @@ HoneDrops is inspired by [Singularity CMS](https://christopher.su/singularity-cm
 ## Demo
 
 - [English page](https://www.catch.jp/honedrops/)
-- [日本語ページ](https://www.catch.jp/honedrops/index.ja)
+- [日本語ページ1](https://www.catch.jp/honedrops/index.ja), [日本語ページ2](https://www.catch.jp/wiki3/)
 
 ## Source code
 

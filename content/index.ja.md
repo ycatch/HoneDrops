@@ -19,7 +19,7 @@ HoneDropsは、Markdownで記述できるシンプルなFlat-File CMSのスケ�
 ### デモ
 
 - [English page](https://www.catch.jp/honedrops/)
-- [日本語ページ](https://www.catch.jp/honedrops/index.ja)
+- [日本語ページ1](https://www.catch.jp/honedrops/index.ja), [日本語ページ2](https://www.catch.jp/wiki3/)
 
 ### ソースコード
 

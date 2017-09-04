@@ -19,11 +19,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="<?php echo $root_url; ?>"><?php echo $default_title; ?></a>
+                <a class="navbar-brand" href="<?php echo $root_url; ?>">
+                    <img src="<?php echo $root_url; ?>bone_icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                </a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="<?php echo $root_url; ?>">Home</a></li>
+					<li class="active"><a href="<?php echo $root_url; ?>"><?php echo $default_title; ?></a></li>
 					<li><a href="<?php echo $root_url; ?>sub01/index">Sub 01</a></li>
 					<li><a href="<?php echo $root_url; ?>sub01/sub11/index">Sub 01/Sub 11</a></li>
 					<li><a href="<?php echo $root_url; ?>sub01/sub12/index">Sub 01/Sub 11</a></li>
